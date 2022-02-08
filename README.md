@@ -1,6 +1,8 @@
 # MoneyCorp
 MoneyCorp Automation Framework
 MoneyCorp Automation Framework is build with selenium and java.  It consist of page object model. 
+It is a selenium based project, so project is dependent on testng, selenium, junit. everything is included in pom.xml file.
+As per java, inheritance is followed in the project. 
 
 
 
@@ -22,3 +24,21 @@ ValidateLinksPO.java - It contains functions to be performed on Search MoneyCorp
 TestCases.java - It calls the test case.
 
 ----------------------------------------------------------------
+
+
+INSTRUCTIONS TO FOLLOW TO EXECUTE THE FRAMEWORK ::
+1. Download chromedriver from https://chromedriver.chromium.org/downloads
+2. Extract and Place the downloaded chromedriver in directory - "C:\drivers\"
+
+3. Download IntelliJ and install.
+
+4. Clone the project from github using -
+    - Open https://github.com/ashmeetsaggu/MoneyCorp
+    - click code -> download zip file
+    
+6. Open Intellij, and import the project
+7. Right click on project name and click Build 
+8. Execute the project -
+    - open TestCases.java file 
+    - click run
+
