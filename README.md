@@ -4,6 +4,7 @@ MoneyCorp Automation Framework is build with selenium and java.  It consist of p
 It is a selenium based project, so project is dependent on testng, selenium, junit. everything is included in pom.xml file.
 As per java, inheritance is followed in the project. 
 
+---------------------------------------------------------------------------------------------------------
 
 
 MoneyCorp Automation Framework has files listed below :
@@ -42,3 +43,16 @@ INSTRUCTIONS TO FOLLOW TO EXECUTE THE FRAMEWORK ::
     - open TestCases.java file 
     - click run
 
+---------------------------------------------------------------
+
+FURTHER ENHANCEMENTS CAND BE DONE :
+
+1. Driver can be placed inside the framework itself.
+2. Data like URL of the application can be stored in a Excel File and fetched from it.
+3. Data can be mantained inside Excel file.
+4. Same test cases can be performed on distinctive web browser like Firefox, Opera, Internet Explorer.
+5. Reports can be added in the framework to view the final results in the form of Extent Report.
+6. Mobile testing can be performed for the same set of instructions.
+7. Database can be used to store data fetched from search.
+
+-----------------------------------------------------------------
